@@ -24,14 +24,10 @@
 }
 
 //Declaring variables
-$font-stack: 'Helvetica Neue',
-'Helvetica',
-Arial,
-sans-serif;
+$font-stack: 'Helvetica Neue','Helvetica',Arial,sans-serif;
 $prim-color: #2c3e50;
 $sec-color: #747474;
-$header-fonts: 'Montserrat',
-sans-serif;
+$header-fonts: 'Montserrat',sans-serif;
 
 //end vars
 *::before,
@@ -527,6 +523,22 @@ input[type="url"] {
 
 .fadeIn {
     animation: fadeIn 0.96s linear;
+}
+
+@keyframes fadeInUp {
+	0%{
+		opacity:0;
+		transform: translateY(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+.animated {
+	animation-fill-mode: both;
+	animation-duration: 1s;  
 }
 
 //End animations
