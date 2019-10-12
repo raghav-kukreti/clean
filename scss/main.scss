@@ -1,6 +1,5 @@
 /*
 	Liscenced under the Creative Commons Liscence.
-
 	cle.an by Raghav Kukreti
 */
 
@@ -24,7 +23,7 @@
 }
 
 //Declaring variables
-$font-stack: 'Helvetica Neue','Helvetica',Arial,sans-serif;
+$font-stack: 'Helvetica Neue', 'Helvetica',Arial,sans-serif;
 $prim-color: #2c3e50;
 $sec-color: #747474;
 $header-fonts: 'Montserrat',sans-serif;
@@ -35,6 +34,9 @@ $header-fonts: 'Montserrat',sans-serif;
 * {
     box-sizing: border-box;
     transition: all .35s ease-in-out;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
 }
 
 html {
@@ -48,16 +50,13 @@ body {
 
 body {
     font-family: $font-stack;
-    background: white;
-    padding: 0;
-    margin: 0;
     font-weight: normal;
     font-style: normal;
     line-height: 1;
     position: relative;
     cursor: default;
     font-size: 16px;
-
+    
     color: $prim-color;
 }
 
